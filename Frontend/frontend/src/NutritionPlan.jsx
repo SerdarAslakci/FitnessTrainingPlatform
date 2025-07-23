@@ -87,7 +87,7 @@ function NutritionPlanAI() {
             const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
               method: "POST",
               headers: {
-                "Authorization": `Bearer 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`,
+                "Authorization": `Bearer your api key`,
                 "HTTP-Referer": "http://localhost:5173",
                 "X-Title": "My Workout App",
                 "Content-Type": "application/json",
