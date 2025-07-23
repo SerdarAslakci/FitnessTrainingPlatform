@@ -1,0 +1,344 @@
+[
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "FitnessAntrenmanPlatform.Dtos.AuthDtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/auth/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "FitnessAntrenmanPlatform.Dtos.AuthDtos.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.FitnessExerciseController",
+    "Method": "GetAllExercises",
+    "RelativePath": "api/FitnessExercises",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MuscleGroup",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Difficulty",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.FitnessExerciseController",
+    "Method": "GetExerciseById",
+    "RelativePath": "api/FitnessExercises/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.FitnessExerciseController",
+    "Method": "GetExerciesByDifficulty",
+    "RelativePath": "api/FitnessExercises/difficulty/{difficulty}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "difficulty",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.FitnessExerciseController",
+    "Method": "GetExerciseByName",
+    "RelativePath": "api/FitnessExercises/name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.FoodController",
+    "Method": "AddFood",
+    "RelativePath": "api/foods",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addFoodDto",
+        "Type": "FitnessAntrenmanPlatform.Dtos.FoodDtos.AddFoodDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.FoodController",
+    "Method": "GetFoodByName",
+    "RelativePath": "api/foods/{foodName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foodName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.FoodController",
+    "Method": "DeleteFoodById",
+    "RelativePath": "api/foods/delete-food/{foodId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foodId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.FoodController",
+    "Method": "GetAllFoods",
+    "RelativePath": "api/foods/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foodType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minCalories",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxCalories",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.FoodController",
+    "Method": "UpdateFood",
+    "RelativePath": "api/foods/update-food/{foodId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foodId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateFoodDto",
+        "Type": "FitnessAntrenmanPlatform.Dtos.FoodDtos.UpdateFoodDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.WorkoutController",
+    "Method": "GetUserWorkout",
+    "RelativePath": "api/MyWorkoutPlan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.WorkoutController",
+    "Method": "DeleteUserWorkoutPlan",
+    "RelativePath": "api/MyWorkoutPlan",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.WorkoutController",
+    "Method": "CompleteDayExerciseAsync",
+    "RelativePath": "api/MyWorkoutPlan/CompleteDay",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "day",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.WorkoutController",
+    "Method": "CreateWorkoutPlan",
+    "RelativePath": "api/MyWorkoutPlan/create-plan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dtoList",
+        "Type": "System.Collections.Generic.List\u00601[[FitnessAntrenmanPlatform.Dtos.WorkoutDtos.AddWorkoutDto, FitnessAntrenmanPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.WorkoutController",
+    "Method": "ResetWeekExercises",
+    "RelativePath": "api/MyWorkoutPlan/ResetAllWeek",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.ProfileController",
+    "Method": "GetUserById",
+    "RelativePath": "api/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.ProfileController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateQuery",
+        "Type": "FitnessAntrenmanPlatform.Dtos.UserDtos.UpdateQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.ProfileController",
+    "Method": "AddMetabolismInfo",
+    "RelativePath": "api/profile/AddMetabolismInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "metabolismInfoDto",
+        "Type": "FitnessAntrenmanPlatform.Dtos.MetabolismDtos.MetabolismInfoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.ProfileController",
+    "Method": "DeleteAccount",
+    "RelativePath": "api/profile/delete-account",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitnessAntrenmanPlatform.Controller.ProfileController",
+    "Method": "GetMetabolismInfo",
+    "RelativePath": "api/profile/GetMetabolismInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

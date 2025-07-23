@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\serda\\source\\repos\\FitnessAntrenmanPlatform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3530E62C-67E5-489F-80AE-674B21153607}|FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform.csproj|c:\\users\\serda\\source\\repos\\fitnessantrenmanplatform\\fitnessantrenmanplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3530E62C-67E5-489F-80AE-674B21153607}|FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform.csproj|solutionrelative:fitnessantrenmanplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3530E62C-67E5-489F-80AE-674B21153607}|FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform.csproj|c:\\users\\serda\\source\\repos\\fitnessantrenmanplatform\\fitnessantrenmanplatform\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3530E62C-67E5-489F-80AE-674B21153607}|FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform.csproj|solutionrelative:fitnessantrenmanplatform\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3530E62C-67E5-489F-80AE-674B21153607}|FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform.csproj|c:\\users\\serda\\source\\repos\\fitnessantrenmanplatform\\fitnessantrenmanplatform\\controller\\fitnessexercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3530E62C-67E5-489F-80AE-674B21153607}|FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform.csproj|solutionrelative:fitnessantrenmanplatform\\controller\\fitnessexercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3530E62C-67E5-489F-80AE-674B21153607}|FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform.csproj|c:\\users\\serda\\source\\repos\\fitnessantrenmanplatform\\fitnessantrenmanplatform\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3530E62C-67E5-489F-80AE-674B21153607}|FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform.csproj|solutionrelative:fitnessantrenmanplatform\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3530E62C-67E5-489F-80AE-674B21153607}|FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform.csproj|c:\\users\\serda\\source\\repos\\fitnessantrenmanplatform\\fitnessantrenmanplatform\\tokenservice\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3530E62C-67E5-489F-80AE-674B21153607}|FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform.csproj|solutionrelative:fitnessantrenmanplatform\\tokenservice\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\serda\\source\\repos\\FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform\\Program.cs",
+              "RelativeDocumentMoniker": "FitnessAntrenmanPlatform\\Program.cs",
+              "ToolTip": "C:\\Users\\serda\\source\\repos\\FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform\\Program.cs",
+              "RelativeToolTip": "FitnessAntrenmanPlatform\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T07:37:23.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FitnessExerciseController.cs",
+              "DocumentMoniker": "C:\\Users\\serda\\source\\repos\\FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform\\Controller\\FitnessExerciseController.cs",
+              "RelativeDocumentMoniker": "FitnessAntrenmanPlatform\\Controller\\FitnessExerciseController.cs",
+              "ToolTip": "C:\\Users\\serda\\source\\repos\\FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform\\Controller\\FitnessExerciseController.cs",
+              "RelativeToolTip": "FitnessAntrenmanPlatform\\Controller\\FitnessExerciseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T08:59:31.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\serda\\source\\repos\\FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FitnessAntrenmanPlatform\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\serda\\source\\repos\\FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "FitnessAntrenmanPlatform\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T05:49:46.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\serda\\source\\repos\\FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform\\TokenService\\ITokenService.cs",
+              "RelativeDocumentMoniker": "FitnessAntrenmanPlatform\\TokenService\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\serda\\source\\repos\\FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform\\TokenService\\ITokenService.cs",
+              "RelativeToolTip": "FitnessAntrenmanPlatform\\TokenService\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T10:48:39.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\serda\\source\\repos\\FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "FitnessAntrenmanPlatform\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Users\\serda\\source\\repos\\FitnessAntrenmanPlatform\\FitnessAntrenmanPlatform\\Controller\\AuthController.cs",
+              "RelativeToolTip": "FitnessAntrenmanPlatform\\Controller\\AuthController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA3wI0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T17:09:20.599Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

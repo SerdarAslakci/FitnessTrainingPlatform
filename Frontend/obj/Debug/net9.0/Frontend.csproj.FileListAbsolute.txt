@@ -1,0 +1,4 @@
+C:\Users\serda\Desktop\Frontend\obj\Debug\net9.0\Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serda\Desktop\Frontend\obj\Debug\net9.0\Frontend.AssemblyInfoInputs.cache
+C:\Users\serda\Desktop\Frontend\obj\Debug\net9.0\Frontend.AssemblyInfo.cs
+C:\Users\serda\Desktop\Frontend\obj\Debug\net9.0\Frontend.csproj.CoreCompileInputs.cache
